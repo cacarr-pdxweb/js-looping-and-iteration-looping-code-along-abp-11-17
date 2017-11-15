@@ -8,7 +8,7 @@ function printBadges(names){
 
 
 function coinToss(){
-  return Math.random() >= 0.5
+  return Math.random() >= 0.5;
 }
 
 function tailsNeverFails(){
@@ -16,7 +16,7 @@ function tailsNeverFails(){
   while(coinToss()){
     counter++
   }
-  return 'You got ${counter} tails in a row!`; 
+  return "You got ${counter} tails in a row!"; 
 }
 
 
